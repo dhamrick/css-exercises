@@ -1,0 +1,19 @@
+.odd {
+    background-color: hsl(350, 100%, 80%);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* Ancestor chaining doesn't work because it isn't a nested element, it's just 2 class assignments on the same element! 
+
+.cooler .odd {
+    font-size: 38px;
+}
+*/
+
+.odd.cooler {
+    font-size: 24px;
+}
+
+#num2 {
+    color: #0000ff
+}

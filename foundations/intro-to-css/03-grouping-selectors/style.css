@@ -7,7 +7,16 @@
     background-color: #ffff00;
 }
 
-.text-formatting {
+.me,
+.no-me {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
+
+/* don't need a new class! you can just group the two normal classes
+
+.{text-formatting 
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+    */

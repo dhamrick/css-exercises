@@ -1,6 +1,6 @@
 .odd {
     background-color: hsl(350, 100%, 80%);
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 /* Ancestor chaining doesn't work because it isn't a nested element, it's just 2 class assignments on the same element! 

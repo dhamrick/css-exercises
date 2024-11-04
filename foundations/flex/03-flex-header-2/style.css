@@ -8,10 +8,20 @@ body {
   font-family: Besley, serif;
 }
 
+/*move this to the more specfic class styling 
+
+div {
+  display: flex;
+  align-items: center;
+} */
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -35,6 +45,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  justify-content: space-around;
 }
 
 a {
@@ -45,4 +56,15 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.left-align,
+.right-align {
+  display: flex;
+  align-items: center;
+  gap:16px;
 }
